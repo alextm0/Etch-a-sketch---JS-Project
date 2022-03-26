@@ -3,10 +3,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content:space-between;
-  gap: 30px;
+  gap: 10px;
 }
 
 .header {
+  margin-top: -15px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #333333;
@@ -14,9 +15,11 @@ body {
 
 .main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 tr {
@@ -29,8 +32,10 @@ button {
 }
 
 .cell {
-  height: 15px;
-  width: 15px;
+  /* width: 100%;
+  height: 100%; */
+  width: 30px;
+  height: 30px;
 }
 
 .whitecell {
@@ -38,7 +43,7 @@ button {
 }
 
 .blackcell {
-  background-color: black;
+  background-color: #333333;
 }
 
 .leftSide {
@@ -49,10 +54,10 @@ button {
 
 .container {
   font-family: 'Roboto', sans-serif;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ededed;
+  display: grid;
+  max-width: 1000px;
+  max-height: 1000px;
 }
 
 .footer {
