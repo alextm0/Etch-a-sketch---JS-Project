@@ -3,6 +3,9 @@ const DIMENSION = 8;
 var container = document.querySelector(".container");
 var board = document.createElement('board');
 
+board.style.height = "100%";
+board.style.width = "100%";
+
 function generateBoard() {
   for(i = 0; i < DIMENSION; i++) {
     // Create row
