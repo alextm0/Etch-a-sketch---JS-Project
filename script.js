@@ -8,6 +8,7 @@ var rows = document.querySelectorAll("tr");
 
 var board = document.createElement('board');
 
+let variabila;
 let brushColor;
 let brushActive;
 
